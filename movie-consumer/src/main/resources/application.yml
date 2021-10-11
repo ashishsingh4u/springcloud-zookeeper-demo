@@ -1,0 +1,14 @@
+server:
+  port: 9092
+
+spring:
+  application:
+    name: movie-consumer
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+      discovery:
+        enabled: true
+logging:
+  level:
+    org.apache.zookeeper.ClientCnxn: WARN
