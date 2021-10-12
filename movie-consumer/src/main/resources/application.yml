@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: movie-consumer
+  config:
+    import: "zookeeper:"
   cloud:
     zookeeper:
       connect-string: localhost:2181
