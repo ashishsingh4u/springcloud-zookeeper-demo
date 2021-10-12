@@ -1,5 +1,6 @@
-package com.techienotes.movieconsumer.config;
+package com.techienotes.movieconsumer.service;
 
+import com.techienotes.movieconsumer.config.LoadBalancerConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClient;
 import org.springframework.cloud.openfeign.FeignClient;
